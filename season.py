@@ -1,25 +1,9 @@
 n = raw_input("Enter Season:")
-if n == "November":
+if n == "November" or n == "December" or n == "January" or n == "February" or n == "March":
 	print ("Winter")
-elif n == "December":
-	print ("Winter")
-elif n == "January":
-	print ("Winter")
-elif n == "February":
-	print ("Winter")
-elif n == "March":
-	print ("Winter")
-elif n == "April":
-	print ("Spring")
-elif n == "May":
-	print ("Spring")
-elif n == "June":
+elif n == "April" or n == "May":
+	print ("Spring") 
+elif n == "June" or n == "July" or n == "August":
 	print ("Summer")
-elif n == "July":
-	print ("Summer")
-elif n == "August":
-	print ("Summer")
-elif n == "September":
-	print ("Autumn")
-elif n == "October":
+elif n == "September" or n == "October":
 	print ("Autumn")
